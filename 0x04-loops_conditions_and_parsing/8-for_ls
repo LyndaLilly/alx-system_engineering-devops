@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# this outputs the contents of the current directory in list format.
+# this outputs the part of the name after the first dash. 
+
+list=$(ls)
+for m in $list; do
+  echo "$m" | cut -d '-' -f2
+done
