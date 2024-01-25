@@ -4,12 +4,12 @@
 
 cnt=0
 
-while [$cnt -lt 10]
+while [ $cnt -lt 10 ]
 do
-  if [$cnt -eq 9]
+  if [ $cnt -eq 9 ]
   then
     echo "Hi"
   fi
   echo "Best School"
-  ((cnt++))
+  (( cnt++ ))
 done
