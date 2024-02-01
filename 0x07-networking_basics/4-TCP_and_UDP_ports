@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# this script displays listening ports for the 
+# + the PID and name of the script the sockt appears to be.
+
+netstat -l --program
