@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this program echoes on 98 on localhost.
+
+nc -l localhost 98
