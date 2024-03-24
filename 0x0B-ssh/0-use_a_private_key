@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this program designs bash code for application to ssh and to connect private for key~/.ssh/school on ubuntu
+
+ssh -i ~/.ssh/school ubuntu@54.209.112.150
